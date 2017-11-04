@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -20,6 +21,13 @@
 
 .App-intro {
   font-size: large;
+}
+
+$brand-font: 'Raleway', sans-serif;
+
+a.brand-logo.navbar-brand {
+  font-family: $brand-font;
+  float: left;
 }
 
 @keyframes App-logo-spin {

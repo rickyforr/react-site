@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './App.css';
 import { Grid, Navbar } from 'react-bootstrap';
-
 
 class Header extends Component {
     render() {
@@ -11,7 +10,7 @@ class Header extends Component {
                     <Grid>
                         <Navbar.Header>
                             <Navbar.Brand>
-                                <a href="/">React App</a>
+                                <a className="brand-logo" href="/">Wise Women</a>
                             </Navbar.Brand>
                         </Navbar.Header>
                     </Grid>
