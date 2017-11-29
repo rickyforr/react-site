@@ -17,13 +17,17 @@ router.route('/').get(function (req, res) {
 
 
 router.post('/', function (req, res) {
-    const newUser = { username: req.body.username };
+    console.log(req.body)
+    const newUser = {
+        username: req.body.username
+    };
     console.log(newUser);
     User.create(newUser)
         .then((response) => {
             res.send('yes');
         })
         .catch(err => {
+            console.log(req.body.username)
             res.status(400).send("unable to save to database");
         });
 });

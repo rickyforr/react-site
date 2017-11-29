@@ -10,7 +10,7 @@ class Header extends Component {
                     <Grid>
                         <Navbar.Header>
                             <Navbar.Brand>
-                                <a className="brand-logo" href="/">Wise Women</a>
+                                <a className="brand-logo" href="/">Rich App</a>
                             </Navbar.Brand>
                         </Navbar.Header>
                     </Grid>
